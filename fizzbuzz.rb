@@ -1,4 +1,4 @@
-puts "Pick a number"
+puts "Pick a number."
 int =gets.chomp.to_i
 
 def fizzbuzz(int)
