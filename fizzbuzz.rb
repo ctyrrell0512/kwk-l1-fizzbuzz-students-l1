@@ -1,5 +1,5 @@
 puts "Pick a number"
-int =gets.chomp
+int =gets.chomp.to_i
 
 def fizzbuzz(int)
    if int % 3==0 && int % 5==0
